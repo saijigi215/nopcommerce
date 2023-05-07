@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [nopCommerceDemo]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="edge"/>
+  <test thread-count="5" name="nopCommerce Test(failed)">
+    <classes>
+      <class name="com.nopcommerce.testCases.TC_HomeScreen_01">
+        <methods>
+          <include name="navigateToCart"/>
+          <include name="setup"/>
+          <include name="addToCart"/>
+          <include name="navigatetoDesktop"/>
+          <include name="homePage"/>
+        </methods>
+      </class> <!-- com.nopcommerce.testCases.TC_HomeScreen_01 -->
+    </classes>
+  </test> <!-- nopCommerce Test(failed) -->
+</suite> <!-- Failed suite [nopCommerceDemo] -->
